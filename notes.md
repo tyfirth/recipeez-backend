@@ -18,3 +18,4 @@ name - string, quantity - float
 
 
 stock?
+user can log in and favorite recipes, add recipes to shopping list, by ingredient, can stock their kitchen with ingredients
