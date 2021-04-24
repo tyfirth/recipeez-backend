@@ -1,9 +1,10 @@
 class Api::V1::IngredientsController < ApplicationController
 
-  before_action :set_recipe
+   before_action :set_recipe
 
   def index
-    @ingredients = @recipe.ingredients
+      @ingredients = Ingredient.all
+
     render json: @ingredients
   end
 
