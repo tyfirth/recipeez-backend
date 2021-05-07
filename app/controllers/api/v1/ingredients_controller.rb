@@ -34,7 +34,7 @@ class Api::V1::IngredientsController < ApplicationController
   end
 
   def ingredient_params
-    params.require(:ingredient).permit(:name, :quantity, :recipe_id)
+    params.require(:ingredient).permit(:name, :amount, :unit, :image, :recipe_id)
   end
 
 end
