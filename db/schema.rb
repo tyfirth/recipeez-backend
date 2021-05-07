@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2021_04_08_043543) do
     t.string "summary"
     t.string "image"
     t.string "instructions"
+    t.boolean "isFavorite", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

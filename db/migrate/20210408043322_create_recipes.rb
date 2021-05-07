@@ -5,6 +5,7 @@ class CreateRecipes < ActiveRecord::Migration[6.0]
       t.string :summary
       t.string :image
       t.string :instructions
+      t.boolean :isFavorite, :default => false
 
       t.timestamps
     end
